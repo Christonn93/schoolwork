@@ -1,0 +1,62 @@
+.container {
+    min-height: 900px;
+}
+
+#main {
+    margin-top: 10px;
+}
+
+.panel-footer {
+    text-align: center;
+    
+}
+.panel-body {
+    min-height: 500px;
+    
+}
+
+/* profil table */
+
+#rad1 {
+    width: 205px;
+    height: 14px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#rad2 {
+    width: 205px;
+    height: 14px;
+    text-align: left;
+    font-size: 15px;
+}
+
+/* oppskrift table */
+
+#orad1 {
+    width: 205px;
+    height: 14px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#orad2 {
+    width: 205px;
+    height: 14px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#orad3 {
+    width: 140px;
+    height: 14px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#orad4 {
+    width: 205px;
+    height: 14px;
+    text-align: left;
+    font-size: 15px;
+}
