@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CSM | About us </title>
+    <meta name="description" content="Community Science Museum contact page. displaying a contact form for you to be able to get in touch with the museum." />
+
+    <!-- Mobile Specific Meta
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="../config/style/main-style.css" rel="stylesheet" type="text/css">
+    <link href="../config/style/content-style.css" rel="stylesheet" type="text/css">
+
+    <!-- Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- Header -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet" />
+
+    <!-- Copy -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Button and links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+
+    <!-- Favicon/icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link href="../assets/fontawesome/css/all.css" rel="stylesheet">
+
+
+    <!-- JavaScript
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#page-header").load("../config/page-template/header.html");
+            $("#page-footer").load("../config/page-template/footer.html");
+        });
+    </script>
+    <!-- Hotjar Tracking Code for https://noroff-project-csm.netlify.app/ -->
+    <script src="./config/javascript/hotjar.js"></script>
+</head>
+
+<body>
+    <div id="page-header"></div>
+
+    <main>
+
+        <div class="breadcrumb-container">
+            <ul class="breadcrumb">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#" class="active-link">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="wrapper">
+            <div class="grid-container-2">
+                <div class="grid-col">
+                    <div class="contact-form">
+                        <form action="../index.html" method="get" >
+                            <div class="form-header header-bg">
+                                <h1>Contact us</h1>
+                            </div>
+                            <div class="form-information">
+                                <p>We are more then glad to help you in anyway we can.</p>
+                            </div>
+                            <div class="form-body">
+                                <div class="form-input">
+                                    <i class="fab fa-optin-monster"></i>
+                                    <input type="text" placeholder="First Name" name="First-name"
+                                        class="input-area" autocomplete="given-name">
+                                </div>
+
+                                <div class="form-input">
+                                    <i class="fab fa-optin-monster"></i>
+                                    <input type="text" placeholder="Last Name" name="Last-name"
+                                        class="input-area" autocomplete="given-name">
+                                </div>
+
+                                <div class="form-input">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <input type="tel" placeholder="Phone number" name="tel-nr" class="input-area" autocomplete="mobile">
+                                </div>
+
+                                <div class="form-input">
+                                    <i class="far fa-envelope"></i>
+                                    <input type="email" placeholder="E-mail adress" name="email" class="input-area" autocomplete="email">
+                                </div>
+
+                                <div class="form-input">
+                                    <i class="fas fa-scroll"></i>
+                                    <textarea placeholder="Write your message here......" name="message"
+                                        class="input-area"></textarea>
+                                </div>
+
+                            </div>
+                            <div class="form-footer">
+                                <button class="cta btn-1" type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <div id="page-footer"></div>
+    <script src="../config/javascript/dropdown.js"></script>
+    <!-- <script src="/config/JavaScript/modal.js"></script> -->
+</body>
+
+</html>
